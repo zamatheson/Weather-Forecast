@@ -1,7 +1,12 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 header {
     display: flex;
     justify-content: center;
-    background-color: rgb(140, 175, 248);
+    background: linear-gradient(to bottom, rgb(67, 84, 123), rgb(21, 31, 62));
+    color: white;
 }
 
 .city-container {
@@ -13,39 +18,50 @@ header {
 .search-container{
     display: grid;
     justify-content: flex-start;
-    margin:20px;
+    margin: 20px;
+}
+
+.searchbtn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: none;
+    border: none;
+}
+
+.searchbtn:hover {
+    color: rgb(99, 119, 164);
+    cursor: grab;
 }
 
 .citybtn {
     margin: 15px;
-    width: 150px;
+    width: 180px;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .weather-container {
-    border: 2px solid rgb(140, 175, 248);
+    border: 2px solid rgb(67, 84, 123);
+    border-radius: 10px;
     position: relative;
-    margin-top: -470px; 
-    margin-right: 50px;
-    left: 375px; 
-    width: 825px; 
-    height: 150px; 
+    margin: -490px 50px 0 400px; 
     padding: 10px;
+    width: 825px;
 }
 
 .forecast-container {
     position: relative;
-    margin-top: 5px; 
-    margin-left: 375px;
+    margin-top: 5px;
+    margin-left: 400px;
 }
 
 .forecast-card {
     border: 2px solid rgb(67, 84, 123);
+    border-radius: 10px;
     display: inline-block;
     width: 140px;
     height: 175px;
     margin-right: 10px;
     padding: 7px;
-    background-color: rgb(67, 84, 123);
+    background: linear-gradient(to bottom, rgb(67, 84, 123), rgb(21, 31, 62));
     color: white;
 }
