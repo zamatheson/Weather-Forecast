@@ -25,10 +25,27 @@ header {
 .weather-container {
     border: 2px solid rgb(140, 175, 248);
     position: relative;
-    margin-top: -570px; 
+    margin-top: -470px; 
     margin-right: 50px;
     left: 375px; 
     width: 825px; 
-    height: 480px; 
-    padding: 25px;
+    height: 150px; 
+    padding: 10px;
+}
+
+.forecast-container {
+    position: relative;
+    margin-top: 5px; 
+    margin-left: 375px;
+}
+
+.forecast-card {
+    border: 2px solid rgb(67, 84, 123);
+    display: inline-block;
+    width: 140px;
+    height: 175px;
+    margin-right: 10px;
+    padding: 7px;
+    background-color: rgb(67, 84, 123);
+    color: white;
 }
